@@ -10,7 +10,7 @@ const Footer = () => {
                             <Image
                                 loading="lazy"
                                 src="logo.svg"
-                                alt="InkWell Logo"
+                                alt="Openmart Logo"
                                 height="100"
                                 width="180"
                             />
