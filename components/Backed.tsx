@@ -3,7 +3,7 @@ import React from 'react';
 
 const Backed = () => {
     return (
-        <div className="flex  md:gap-x- gap-y-12  md:justify-center flex-col md:flex-row px-4 border  md:px-32 items-center py-3 w-full justify-center">
+        <div className="flex  md:gap-x- gap-y-12  md:justify-center flex-col md:flex-row px-4   md:px-32 items-center py-3 w-full justify-center">
             <div className="flex flex-wrap md:flex-nowrap md:gap-x-12 justify-center gap-y-8 md:gap-y-0">
                 <Image src="/back_1.png" alt="Back" height={40} width={200} />
                 <Image src="/back_2.png" alt="Back" height={40} width={200} />
