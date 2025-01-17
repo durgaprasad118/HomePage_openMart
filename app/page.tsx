@@ -1,9 +1,12 @@
 import Accordion from '@/components/Accordion';
 import Backed from '@/components/Backed';
+import Feats from '@/components/Features';
 import { Footer } from '@/components/Footer';
+import Hero from '@/components/Hero';
 import { InfiniteMovingCardsDemo } from '@/components/InfiniteScroll';
 import Navbar from '@/components/Nabar';
 import PricingCard from '@/components/PricingCard';
+import { HeroScrollDemo } from '@/components/Scroller';
 import TabComponent from '@/components/Tabs';
 import TryOpen from '@/components/TryOpen';
 import TabSection from '@/components/Usecases';
@@ -12,6 +15,9 @@ export default function Home() {
     return (
         <div className="">
             <Navbar />
+            <Hero />
+            <HeroScrollDemo />
+            <Feats />
             <div>
                 <h1 className="mb-4 md:mb-8 text-4xl text-center md:text-5xl font-semibold text-black">
                     Use cases

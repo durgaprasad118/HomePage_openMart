@@ -17,7 +17,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
     perMonth
 }) => {
     return (
-        <div className="w-full hover:border-blue-500 hover:border-2 max-w-lg p-6 bg-white border border-gray-200 rounded-[40px] shadow sm:p-8 flex flex-col items-center">
+        <div className="w-full hover:border-blue-500  max-w-lg p-6 bg-white border-2 border-gray-200 rounded-[40px] shadow sm:p-8 flex flex-col items-center">
             <h5 className="mb-3 text-3xl font-semibold text-black">{title}</h5>
             <p className="my-3 text-center text-lg md:text-xl font-normal text-gray-500">
                 {tag}
