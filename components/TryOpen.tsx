@@ -2,7 +2,7 @@ import React from 'react';
 
 const TryOpen = () => {
     return (
-        <div className="bg-[#F2F9FF]  rounded-[28px] md:p-20 p-4 flex  flex-col justify-center md:gap-y-4 gap-y-2 items-center">
+        <div className="bg-[#F2F9FF] md:my-20  rounded-[28px] md:p-20 p-4 flex  flex-col justify-center md:gap-y-4 gap-y-2 items-center">
             <div className="flex flex-col items-center justify-center md:w-[70%]">
                 <h1 className="mb-3 text-3xl text-center md:text-5xl font-bold text-black">
                     Try Openmart for free

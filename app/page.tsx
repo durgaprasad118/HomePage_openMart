@@ -17,16 +17,33 @@ export default function Home() {
             <Navbar />
             <Hero />
             <HeroScrollDemo />
-            <Backed />
-            <InfiniteMovingCardsDemo />
-            <Feats />
+            <div className="md:my-10">
+                <Backed />
+            </div>
+            <div className="md:my-20">
+                <InfiniteMovingCardsDemo />
+            </div>
+            <div className="md:px-32 px-4 md:my-32">
+                <div className="flex flex-col items-center justify-center">
+                    <div className="my-6 flex flex-col items-center justify-center md:w-[60%] px-4">
+                        <h1 className="mb-3 text-3xl text-center md:text-5xl font-semibold text-black">
+                            Easily find qualified leads
+                        </h1>
+                        <p className="my-2 md:my-3 text-center text-md md:text-xl  font-normal text-gray-500">
+                            Skip the lengthy research. Tell us how you qualify
+                            leads, and our AI will do the rest!
+                        </p>
+                    </div>
+                </div>
+                <Feats />
+            </div>
             <div>
                 <h1 className="mb-4 md:mb-8 text-4xl text-center md:text-5xl font-semibold text-black">
                     Use cases
                 </h1>
                 <TabSection />
             </div>
-            <div className="md:px-32 px-4">
+            <div className="md:px-32 px-4 md:my-32">
                 <div className="flex flex-col items-center justify-center">
                     <div className="my-6 flex flex-col items-center justify-center md:w-[60%] px-4">
                         <h1 className="mb-3 text-3xl text-center md:text-5xl font-semibold text-black">
@@ -42,8 +59,7 @@ export default function Home() {
                 </div>
                 <TabComponent />
             </div>
-            <Accordion />
-            <div>
+            <div className="my-32">
                 <div className="flex flex-col items-center  justify-center">
                     <div className="my-6 flex flex-col items-center justify-center md:w-[50%] px-4">
                         <h1 className="mb-3 text-3xl text-center md:text-5xl font-semibold text-black">
@@ -112,6 +128,7 @@ export default function Home() {
             <div className=" w-[80%] mx-auto">
                 <TryOpen />
             </div>
+            <Accordion />
             <Footer />
         </div>
     );

@@ -3,7 +3,7 @@ import React from 'react';
 const Feats = () => {
     return (
         <section className="bg-white dark:bg-gray-900">
-            <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
+            <div className="py-8 px-4 mx-auto max-w-screen-2xl lg:py-16">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 md:col-span-2">
                         <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">
